@@ -68,3 +68,6 @@ if [ ! -x $FILE ]; then
     cp $FILE$BAK $FILE
     echo "successfull, i guess."
 fi
+
+# cleanup 
+rm -rfv $DEBS
