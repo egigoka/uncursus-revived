@@ -5,6 +5,7 @@
  - [ ] Get list
  - [ ] Create debs
  - [ ] Update scripts
+ - [ ] liblzma5 conflicts with xz, well, fuck, do I really need to change packets from Procursus?
 **update_apt.sh**
  - [ ] Not rejailbreaking - maybe dummy packages can help?
 **update_openssh.sh**
