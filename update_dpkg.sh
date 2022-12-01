@@ -21,13 +21,17 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/lz4_1.9.3.0.1_
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb?raw=true -O $DEBS/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/libzstd1_1.5.2.0.1_iphoneos-arm.deb?raw=true -O $DEBS/libzstd1_1.5.2.0.1_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/dpkg_1.21.9.0.1_iphoneos-arm.deb?raw=true -O $DEBS/dpkg_1.21.9.0.1_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakexz_1_0_iphoneos-arm.deb?raw=true -O $DEBS/fakexz_1_0_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelzma_3_0_iphoneos-arm.deb?raw=true -O $DEBS/fakelzma_3_0_iphoneos-arm.deb
+
 
 # main script
 frm xz
+i $DEBS/fakexz_1_0_iphoneos-arm.deb
 frm lzma
-frm lz4
-frm xz
-frm lzma
+i $DEBS/fakelzma_3_0_iphoneos-arm.deb
+frm lz4 
+# replaced with newer
 
 i $DEBS/fakesh_0.0.0.1_iphoneos-arm.deb
 i $DEBS/libintl8_0.21-4.0.1_iphoneos-arm.deb

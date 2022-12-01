@@ -35,6 +35,7 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/grep_3.7_iphon
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/sed_4.8-2_iphoneos-arm.deb?raw=true -O $DEBS/sed_4.8-2_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/bash_5.2.0_iphoneos-arm.deb?raw=true -O $DEBS/bash_5.2.0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/libs/libncurses.6.dylib?raw=true -O $LIBS/libncurses.6.dylib
+wget https://github.com/egigoka/uncursus-revived/blob/master/libs/fakediskdev-cmds_593_0_iphoneos-arm.deb?raw=true -O $LIBS/fakediskdev-cmds_593_0_iphoneos-arm.deb
 
 # updating bash
 i $DEBS/debianutils_5.5-1_iphoneos-arm.deb
@@ -51,6 +52,7 @@ cfg libpam-modules
 i $DEBS/libcrypt2_4.4.28_iphoneos-arm.deb
 i $DEBS/file-cmds_400-1_iphoneos-arm.deb
 frm diskdev-cmds
+i $DEBS/fakediskdev-cmds_593_0_iphoneos-arm.deb
 i $DEBS/firmware-sbin_0-2_all.deb
 i $DEBS/system-cmds_880.60.2_iphoneos-arm.deb
 i $DEBS/libpcre1_8.45-1_iphoneos-arm.deb
