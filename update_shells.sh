@@ -9,6 +9,12 @@ alias ddrm="dpkg-divert --remove"
 cp /usr/bin/dpkg /usr/bin/dpkg_bak
 cp /bin/rm /bin/rm_bak
 
+if ! command -v wget &> /dev/null
+then
+    echo "wget could not be found"
+    exit
+fi
+
 # download dependencies
 DEBS=/var/mobile/procursus_debs_saved
 mkdir $DEBS
