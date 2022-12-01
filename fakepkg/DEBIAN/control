@@ -1,0 +1,9 @@
+Package: tar
+Essental: yes
+Version: 0.0.0.1
+Architecture: iphoneos-arm
+Maintainer: Fake pkg <none@example.com>
+Section: System
+Homepage: http://example.com
+Description: empty package
+Installed-Size: 0
