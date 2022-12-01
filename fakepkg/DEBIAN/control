@@ -1,6 +1,6 @@
-Package: tar
+Package: lzma
 Essental: yes
-Version: 0.0.0.1
+Version: 99.9.9.9
 Architecture: iphoneos-arm
 Maintainer: Fake pkg <none@example.com>
 Section: System
