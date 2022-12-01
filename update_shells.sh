@@ -41,7 +41,7 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/grep_3.7_iphon
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/sed_4.8-2_iphoneos-arm.deb?raw=true -O $DEBS/sed_4.8-2_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/bash_5.2.0_iphoneos-arm.deb?raw=true -O $DEBS/bash_5.2.0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/libs/libncurses.6.dylib?raw=true -O $LIBS/libncurses.6.dylib
-wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakediskdev-cmds_593_0_iphoneos-arm.deb?raw=true -O $LIBS/fakediskdev-cmds_593_0_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakediskdev-cmds_593_0_iphoneos-arm.deb?raw=true -O $DEBS/fakediskdev-cmds_593_0_iphoneos-arm.deb
 
 # updating bash
 i $DEBS/debianutils_5.5-1_iphoneos-arm.deb
@@ -50,6 +50,8 @@ fin $DEBS/ncurses-term_6.3-2_all.deb
 i $DEBS/libncursesw6_6.3-2_iphoneos-arm.deb
 cfg ncurses-term
 i $DEBS/libedit0_3.1-20210910_iphoneos-arm.deb
+# fuuuck this
+cp $LIBS/libncurses.6.dylib /usr/lib/libncurses.6.dylib
 i $DEBS/dash_0.5.11.4_iphoneos-arm.deb
 i $DEBS/libreadline8_8.2.0_iphoneos-arm.deb
 fin $DEBS/libpam-modules_186.60.1-1_iphoneos-arm.deb
@@ -68,9 +70,8 @@ i $DEBS/profile.d_0-7_iphoneos-arm.deb
 i $DEBS/grep_3.7_iphoneos-arm.deb
 i $DEBS/sed_4.8-2_iphoneos-arm.deb
 cfg debianutils
-# fuuuck this
-cp $LIBS/libncurses.6.dylib /usr/lib/libncurses.6.dylib
 i $DEBS/bash_5.2.0_iphoneos-arm.deb
+# fuuuck this
 rm /usr/lib/libncurses.6.dylib
 
 
