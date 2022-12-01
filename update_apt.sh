@@ -1,5 +1,7 @@
 # just easier to debug this way, wiping rootfs every time is already driving me nuts
 alias i="dpkg -i"
+alias fin="dpkg --force-all -i"
+alias cfg="dpkg --configure"
 alias frm="dpkg --force-all --remove"
 
 # backup for fuckups
@@ -40,13 +42,19 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/system-cmds_88
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/gpgv_2.3.6_iphoneos-arm.deb?raw=true -O $DEBS/gpgv_2.3.6_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/apt_2.5.2_iphoneos-arm.deb?raw=true -O $DEBS/apt_2.5.2_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/libncursesw6_6.3-2_iphoneos-arm.deb?raw=true -O $DEBS/libncursesw6_6.3-2_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/tar_1.34_iphoneos-arm.deb?raw=true -O $DEBS/tar_1.34_iphoneos-arm.deb
 
 # updating apt
+echo
+frm cydia
 frm apt
 frm apt-key
 frm libapt
 frm libapt-pkg5.0
-i $DEBS/ncurses-term_6.3-2_all.deb $DEBS/libncursesw6_6.3-2_iphoneos-arm.deb
+i $DEBS/tar_1.34_iphoneos-arm.deb
+fin $DEBS/ncurses-term_6.3-2_all.deb 
+i $DEBS/libncursesw6_6.3-2_iphoneos-arm.deb
+cfg ncurses-term
 i $DEBS/havoc-keyring_2022.06.03_all.deb
 i $DEBS/chariz-keyring_2021.07.18_all.deb
 i $DEBS/odyssey-keyring_2021.07.20_all.deb
@@ -77,7 +85,9 @@ i $DEBS/liblz4-1_1.9.3_iphoneos-arm.deb
 frm gcrypt
 i $DEBS/libgcrypt20_1.10.1_iphoneos-arm.deb
 i $DEBS/libapt-pkg6.0_2.5.2_iphoneos-arm.deb
-i $DEBS/libpam2_20190224_iphoneos-arm.deb $DEBS/libpam-modules_186.60.1-1_iphoneos-arm.deb
+fin $DEBS/libpam2_20190224_iphoneos-arm.deb 
+i $DEBS/libpam-modules_186.60.1-1_iphoneos-arm.deb
+cfg libpam2
 i $DEBS/libcrypt2_4.4.28_iphoneos-arm.deb
 i $DEBS/file-cmds_400-1_iphoneos-arm.deb
 i $DEBS/system-cmds_880.60.2_iphoneos-arm.deb
