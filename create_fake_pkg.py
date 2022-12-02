@@ -1,7 +1,7 @@
 from commands import *
 
-pkgs = ['ncurses']
-version = "6:0"
+pkgs = ['libunistring']
+version = "1:0"
 
 control_text = """Package: {package_name}
 Essental: yes
