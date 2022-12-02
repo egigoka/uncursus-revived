@@ -23,12 +23,15 @@ mkdir $DEBS
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/coreutils_9.1_iphoneos-arm.deb?raw=true -O $DEBS/coreutils_9.1_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/shell-cmds_278_iphoneos-arm.deb?raw=true -O $DEBS/shell-cmds_278_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakecoreutils-bin_8_0_iphoneos-arm.deb?raw=true -O $DEBS/fakecoreutils-bin_8_0_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/libssl3_3.0.7_iphoneos-arm.deb?raw=true -O $DEBS/libssl3_3.0.7_iphoneos-arm.deb
 
 # updating utils
 fin $DEBS/shell-cmds_278_iphoneos-arm.deb
+i $DEBS/libssl3_3.0.7_iphoneos-arm.deb
 i $DEBS/coreutils_9.1_iphoneos-arm.deb
 cfg shell-cmds
 i $DEBS/fakecoreutils-bin_8_0_iphoneos-arm.deb
+
 
 # fuckups
 FILE=/bin/rm
