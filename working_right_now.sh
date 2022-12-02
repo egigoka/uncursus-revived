@@ -2,3 +2,9 @@ sh install_wget.sh
 sh update_dpkg.sh
 sh update_shells.sh
 sh update_apt.sh
+#sh update_openssh.sh
+#sh update_shell-cmds_coreutils.sh
+#sh update_darwintools.sh
+#sh update_findutils.sh
+#sh update_libncursesw6.sh
+#sh update_ncurses-term.sh
