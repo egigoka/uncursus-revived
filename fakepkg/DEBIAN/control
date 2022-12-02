@@ -1,6 +1,6 @@
 Package: coreutils-bin
 Essental: yes
-Version: 1:0
+Version: 8:0
 Architecture: iphoneos-arm
 Maintainer: Fake pkg <none@example.com>
 Section: System
