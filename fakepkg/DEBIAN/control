@@ -1,6 +1,6 @@
-Package: coreutils-bin
+Package: ncurses
 Essental: yes
-Version: 8:0
+Version: 6:0
 Architecture: iphoneos-arm
 Maintainer: Fake pkg <none@example.com>
 Section: System

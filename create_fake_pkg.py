@@ -1,7 +1,7 @@
 from commands import *
 
-pkgs = ['coreutils-bin']
-version = "8:0"
+pkgs = ['ncurses']
+version = "6:0"
 
 control_text = """Package: {package_name}
 Essental: yes
