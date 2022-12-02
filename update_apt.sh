@@ -59,7 +59,7 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibassuan_
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakegnutls_3_0_iphoneos-arm.deb?raw=true -O $DEBS/fakegnutls_3_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakegcrypt_1_0_iphoneos-arm.deb?raw=true -O $DEBS/fakegcrypt_1_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakegnupg_2_0_iphoneos-arm.deb?raw=true -O $DEBS/fakegnupg_2_0_iphoneos-arm.deb
-wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibunistring_0_0_iphoneos-arm.deb?raw=true -O $DEBS/fakelibunistring_0_0_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibunistring_1_0_iphoneos-arm.deb?raw=true -O $DEBS/fakelibunistring_1_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/p11-kit_0.24.0_iphoneos-arm.deb?raw=true -O $DEBS/p11-kit_0.24.0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/p11-kit-modules_0.24.0_iphoneos-arm.deb?raw=true -O $DEBS/p11-kit-modules_0.24.0_iphoneos-arm.deb
 
@@ -103,7 +103,7 @@ i $DEBS/p11-kit_0.24.0_iphoneos-arm.deb
 i $DEBS/libnettle8_3.7.3_iphoneos-arm.deb
 i $DEBS/libhogweed6_3.7.3_iphoneos-arm.deb
 frm libunistring
-i $DEBS/fakelibunistring_0_0_iphoneos-arm.deb
+i $DEBS/fakelibunistring_1_0_iphoneos-arm.deb
 i $DEBS/libunistring2_0.9.10-2_iphoneos-arm.deb
 frm libidn2
 # replaced with newer

@@ -1,0 +1,428 @@
+install_dpkg.log
+--2022-12-02 14:10:26--  https://github.com/egigoka/uncursus-revived/blob/master/debs/fakesh_0.0.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/fakesh_0.0.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:27--  https://github.com/egigoka/uncursus-revived/raw/master/debs/fakesh_0.0.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/fakesh_0.0.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:27--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/fakesh_0.0.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20672 (20K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/fakesh_0.0.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+/var/mobile 100%  20.19K  --.-KB/s    in 0.03s
+
+2022-12-02 14:10:29 (642 KB/s) - '/var/mobile/procursus_debs_uncompressed/fakesh_0.0.0.1_iphoneos-arm.deb' saved [20672/20672]
+
+--2022-12-02 14:10:29--  https://github.com/egigoka/uncursus-revived/blob/master/debs/libintl8_0.21-4.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/libintl8_0.21-4.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:30--  https://github.com/egigoka/uncursus-revived/raw/master/debs/libintl8_0.21-4.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libintl8_0.21-4.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:31--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libintl8_0.21-4.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 133312 (130K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/libintl8_0.21-4.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m  54%  71.17K   283KB/s
+/var/mobile 100% 130.19K   421KB/s    in 0.3s
+
+2022-12-02 14:10:32 (421 KB/s) - '/var/mobile/procursus_debs_uncompressed/libintl8_0.21-4.0.1_iphoneos-arm.deb' saved [133312/133312]
+
+--2022-12-02 14:10:32--  https://github.com/egigoka/uncursus-revived/blob/master/debs/libiosexec1_1.2.2.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/libiosexec1_1.2.2.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:34--  https://github.com/egigoka/uncursus-revived/raw/master/debs/libiosexec1_1.2.2.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libiosexec1_1.2.2.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:35--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libiosexec1_1.2.2.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 71872 (70K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/libiosexec1_1.2.2.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s      /var/mobile 100%  70.19K  --.-KB/s    in 0.03s
+
+2022-12-02 14:10:37 (2.15 MB/s) - '/var/mobile/procursus_debs_uncompressed/libiosexec1_1.2.2.0.1_iphoneos-arm.deb' saved [71872/71872]
+
+--2022-12-02 14:10:37--  https://github.com/egigoka/uncursus-revived/blob/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:38--  https://github.com/egigoka/uncursus-revived/raw/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:39--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.111.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 215232 (210K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m  64% 135.17K   626KB/s
+/var/mobile 100% 210.19K   863KB/s    in 0.2s
+
+2022-12-02 14:10:40 (863 KB/s) - '/var/mobile/procursus_debs_uncompressed/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb' saved [215232/215232]
+
+--2022-12-02 14:10:40--  https://github.com/egigoka/uncursus-revived/blob/master/debs/libz-ng2_2.0.6.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/libz-ng2_2.0.6.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:40--  https://github.com/egigoka/uncursus-revived/raw/master/debs/libz-ng2_2.0.6.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libz-ng2_2.0.6.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:41--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libz-ng2_2.0.6.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 174272 (170K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/libz-ng2_2.0.6.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m  98% 167.17K   812KB/s      /var/mobile 100% 170.19K   826KB/s    in 0.2s
+
+2022-12-02 14:10:42 (826 KB/s) - '/var/mobile/procursus_debs_uncompressed/libz-ng2_2.0.6.0.1_iphoneos-arm.deb' saved [174272/174272]
+
+--2022-12-02 14:10:42--  https://github.com/egigoka/uncursus-revived/blob/master/debs/libmd0_1.0.4.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/libmd0_1.0.4.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:43--  https://github.com/egigoka/uncursus-revived/raw/master/debs/libmd0_1.0.4.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libmd0_1.0.4.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:43--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libmd0_1.0.4.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 123072 (120K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/libmd0_1.0.4.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+/var/mobile 100% 120.19K   703KB/s    in 0.2s
+
+2022-12-02 14:10:44 (703 KB/s) - '/var/mobile/procursus_debs_uncompressed/libmd0_1.0.4.0.1_iphoneos-arm.deb' saved [123072/123072]
+
+--2022-12-02 14:10:44--  https://github.com/egigoka/uncursus-revived/blob/master/debs/liblz4-1_1.9.3.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/liblz4-1_1.9.3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:45--  https://github.com/egigoka/uncursus-revived/raw/master/debs/liblz4-1_1.9.3.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/liblz4-1_1.9.3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:45--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/liblz4-1_1.9.3.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 174272 (170K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/liblz4-1_1.9.3.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m  89% 152.00K   739KB/s
+/var/mobile 100% 170.19K   754KB/s    in 0.2s
+
+2022-12-02 14:10:46 (754 KB/s) - '/var/mobile/procursus_debs_uncompressed/liblz4-1_1.9.3.0.1_iphoneos-arm.deb' saved [174272/174272]
+
+--2022-12-02 14:10:46--  https://github.com/egigoka/uncursus-revived/blob/master/debs/lz4_1.9.3.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/lz4_1.9.3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:47--  https://github.com/egigoka/uncursus-revived/raw/master/debs/lz4_1.9.3.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/lz4_1.9.3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:47--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/lz4_1.9.3.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 235712 (230K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/lz4_1.9.3.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m  79% 183.17K   874KB/s
+/var/mobile 100% 230.19K   619KB/s    in 0.4s
+
+2022-12-02 14:10:48 (619 KB/s) - '/var/mobile/procursus_debs_uncompressed/lz4_1.9.3.0.1_iphoneos-arm.deb' saved [235712/235712]
+
+--2022-12-02 14:10:48--  https://github.com/egigoka/uncursus-revived/blob/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:49--  https://github.com/egigoka/uncursus-revived/raw/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:50--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 215232 (210K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m  87% 184.00K   882KB/s      /var/mobile 100% 210.19K   997KB/s    in 0.2s
+
+2022-12-02 14:10:50 (997 KB/s) - '/var/mobile/procursus_debs_uncompressed/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb' saved [215232/215232]
+
+--2022-12-02 14:10:50--  https://github.com/egigoka/uncursus-revived/blob/master/debs/libzstd1_1.5.2.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/libzstd1_1.5.2.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:53--  https://github.com/egigoka/uncursus-revived/raw/master/debs/libzstd1_1.5.2.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libzstd1_1.5.2.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:53--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/libzstd1_1.5.2.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 716992 (700K) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/libzstd1_1.5.2.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m   7%  55.17K   268KB/s
+    /var/mo  10%  71.17K   145KB/s
+   /var/mob  28% 199.17K   220KB/s
+  /var/mobi  49% 343.17K   297KB/s
+ /var/mobil  68% 480.56K   348KB/s
+/var/mobile  82% 576.56K   359KB/s
+var/mobile/  98% 688.56K   368KB/s
+ar/mobile/p 100% 700.19K   257KB/s      /var/mobile 100% 700.19K   257KB/s    in 2.7s
+
+2022-12-02 14:10:57 (257 KB/s) - '/var/mobile/procursus_debs_uncompressed/libzstd1_1.5.2.0.1_iphoneos-arm.deb' saved [716992/716992]
+
+--2022-12-02 14:10:57--  https://github.com/egigoka/uncursus-revived/blob/master/debs/dpkg_1.21.9.0.1_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/dpkg_1.21.9.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:58--  https://github.com/egigoka/uncursus-revived/raw/master/debs/dpkg_1.21.9.0.1_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/dpkg_1.21.9.0.1_iphoneos-arm.deb [following]
+--2022-12-02 14:10:59--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/dpkg_1.21.9.0.1_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5765312 (5.5M) [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/dpkg_1.21.9.0.1_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s
+     /var/m   0%  23.17K  32.2KB/s
+    /var/mo   0%  39.17K  28.1KB/s
+   /var/mob   2% 135.17K  84.8KB/s
+  /var/mobi   4% 231.17K   127KB/s
+ /var/mobil   8% 488.00K   242KB/s
+/var/mobile  13% 776.00K   348KB/s
+var/mobile/  19%   1.05M   442KB/s
+ar/mobile/p  23%   1.30M   484KB/s
+r/mobile/pr  30%   1.66M   573KB/s
+/mobile/pro  39%   2.18M   702KB/s    etmobile/proc  49%   2.71M   820KB/s    etobile/procu  60%   3.30M   942KB/s    etbile/procur  70%   3.87M  1.00MB/s    etile/procurs  77%   4.27M  1.05MB/s    etle/procursu  89%   4.93M  1.15MB/s    ete/procursus  99%   5.45M  1.37MB/s    et/procursus_  99%   5.49M  1.32MB/s    et/var/mobile 100%   5.50M  1.32MB/s    in 5.5s
+
+2022-12-02 14:11:07 (1019 KB/s) - '/var/mobile/procursus_debs_uncompressed/dpkg_1.21.9.0.1_iphoneos-arm.deb' saved [5765312/5765312]
+
+--2022-12-02 14:11:07--  https://github.com/egigoka/uncursus-revived/blob/master/debs/fakexz_1_0_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/fakexz_1_0_iphoneos-arm.deb [following]
+--2022-12-02 14:11:11--  https://github.com/egigoka/uncursus-revived/raw/master/debs/fakexz_1_0_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/fakexz_1_0_iphoneos-arm.deb [following]
+--2022-12-02 14:11:12--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/fakexz_1_0_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 728 [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/fakexz_1_0_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s      /var/mobile 100%     728  --.-KB/s    in 0s
+
+2022-12-02 14:11:15 (18.8 MB/s) - '/var/mobile/procursus_debs_uncompressed/fakexz_1_0_iphoneos-arm.deb' saved [728/728]
+
+--2022-12-02 14:11:15--  https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelzma_3_0_iphoneos-arm.deb?raw=true
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/egigoka/uncursus-revived/raw/master/debs/fakelzma_3_0_iphoneos-arm.deb [following]
+--2022-12-02 14:11:19--  https://github.com/egigoka/uncursus-revived/raw/master/debs/fakelzma_3_0_iphoneos-arm.deb
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... sh update_dpkg.sh302 Found
+Location: https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/fakelzma_3_0_iphoneos-arm.deb [following]
+--2022-12-02 14:11:19--  https://raw.githubusercontent.com/egigoka/uncursus-revived/master/debs/fakelzma_3_0_iphoneos-arm.deb
+Resolving raw.githubusercontent.com... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 724 [application/octet-stream]
+Saving to: '/var/mobile/procursus_debs_uncompressed/fakelzma_3_0_iphoneos-arm.deb'
+
+      /var/   0%       0  --.-KB/s      /var/mobile 100%     724  --.-KB/s    in 0s
+
+2022-12-02 14:11:20 (30.0 MB/s) - '/var/mobile/procursus_debs_uncompressed/fakelzma_3_0_iphoneos-arm.deb' saved [724/724]
+
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: this is an essential package; it should not be removed
+dpkg: xz: dependency problems, but removing anyway as you requested:
+ libapt-pkg5.0 depends on xz.
+ libapt depends on xz.
+ dpkg depends on xz.
+ cydia depends on xz.
+
+(Reading database ... 2379 files and directories currently installed.)
+Removing xz (5.2.4-4) ...
+Selecting previously unselected package xz.
+(Reading database ... 2345 files and directories currently installed.)
+Preparing to unpack .../fakexz_1_0_iphoneos-arm.deb ...
+Unpacking xz (1:0) ...
+Setting up xz (1:0) ...
+dpkg: lzma: dependency problems, but removing anyway as you requested:
+ tar depends on lzma.
+ libapt-pkg5.0 depends on lzma.
+ libapt depends on lzma.
+ dpkg depends on lzma.
+
+(Reading database ... 2345 files and directories currently installed.)
+Removing lzma (2:4.32.7-2) ...
+Selecting previously unselected package lzma.
+(Reading database ... 2330 files and directories currently installed.)
+Preparing to unpack .../fakelzma_3_0_iphoneos-arm.deb ...
+Unpacking lzma (3:0) ...
+Setting up lzma (3:0) ...
+dpkg: lz4: dependency problems, but removing anyway as you requested:
+ libapt-pkg5.0 depends on lz4.
+ libapt depends on lz4.
+
+(Reading database ... 2330 files and directories currently installed.)
+Removing lz4 (1.7.5-1) ...
+Selecting previously unselected package sh.
+(Reading database ... 2319 files and directories currently installed.)
+Preparing to unpack .../fakesh_0.0.0.1_iphoneos-arm.deb ...
+Unpacking sh (0.0.0.1) ...
+Setting up sh (0.0.0.1) ...
+Selecting previously unselected package libintl8.
+(Reading database ... 2319 files and directories currently installed.)
+Preparing to unpack .../libintl8_0.21-4.0.1_iphoneos-arm.deb ...
+Unpacking libintl8 (0.21-4.0.1) ...
+Setting up libintl8 (0.21-4.0.1) ...
+Selecting previously unselected package libiosexec1.
+(Reading database ... 2320 files and directories currently installed.)
+Preparing to unpack .../libiosexec1_1.2.2.0.1_iphoneos-arm.deb ...
+Unpacking libiosexec1 (1.2.2.0.1) ...
+Setting up libiosexec1 (1.2.2.0.1) ...
+Selecting previously unselected package liblzma5.
+(Reading database ... 2324 files and directories currently installed.)
+Preparing to unpack .../liblzma5_5.2.5-3.0.1_iphoneos-arm.deb ...
+Unpacking liblzma5 (5.2.5-3.0.1) ...
+Setting up liblzma5 (5.2.5-3.0.1) ...
+Selecting previously unselected package libz-ng2.
+(Reading database ... 2327 files and directories currently installed.)
+Preparing to unpack .../libz-ng2_2.0.6.0.1_iphoneos-arm.deb ...
+Unpacking libz-ng2 (2.0.6.0.1) ...
+Setting up libz-ng2 (2.0.6.0.1) ...
+Selecting previously unselected package libmd0.
+(Reading database ... 2329 files and directories currently installed.)
+Preparing to unpack .../libmd0_1.0.4.0.1_iphoneos-arm.deb ...
+Unpacking libmd0 (1.0.4.0.1) ...
+Setting up libmd0 (1.0.4.0.1) ...
+Selecting previously unselected package liblz4-1.
+(Reading database ... 2333 files and directories currently installed.)
+Preparing to unpack .../liblz4-1_1.9.3.0.1_iphoneos-arm.deb ...
+Unpacking liblz4-1 (1.9.3) ...
+Setting up liblz4-1 (1.9.3) ...
+Selecting previously unselected package lz4.
+(Reading database ... 2335 files and directories currently installed.)
+Preparing to unpack .../lz4_1.9.3.0.1_iphoneos-arm.deb ...
+Unpacking lz4 (1.9.3.0.1) ...
+Setting up lz4 (1.9.3.0.1) ...
+(Reading database ... 2345 files and directories currently installed.)
+Preparing to unpack .../liblzma5_5.2.5-3.0.1_iphoneos-arm.deb ...
+Unpacking liblzma5 (5.2.5-3.0.1) over (5.2.5-3.0.1) ...
+Setting up liblzma5 (5.2.5-3.0.1) ...
+Selecting previously unselected package libzstd1.
+(Reading database ... 2345 files and directories currently installed.)
+Preparing to unpack .../libzstd1_1.5.2.0.1_iphoneos-arm.deb ...
+Unpacking libzstd1 (1.5.2.0.1) ...
+Setting up libzstd1 (1.5.2.0.1) ...
+(Reading database ... 2350 files and directories currently installed.)
+Preparing to unpack .../dpkg_1.21.9.0.1_iphoneos-arm.deb ...
+Unpacking dpkg (1.21.9.0.1) over (1.19.7-2) ...
+dpkg: warning: unable to delete old directory '/var/lib/dpkg/updates': Directory not empty
+dpkg: warning: unable to delete old directory '/var/lib/dpkg/info': Directory not empty
+dpkg: warning: unable to delete old directory '/var/lib/dpkg/alternatives': Directory not empty
+Setting up dpkg (1.21.9.0.1) ...
+removed '/var/mobile/procursus_debs_uncompressed/libz-ng2_2.0.6.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/libintl8_0.21-4.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/fakelzma_3_0_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/liblzma5_5.2.5-3.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/libmd0_1.0.4.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/dpkg_1.21.9.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/libiosexec1_1.2.2.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/lz4_1.9.3.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/liblz4-1_1.9.3.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/fakesh_0.0.0.1_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/fakexz_1_0_iphoneos-arm.deb'
+removed '/var/mobile/procursus_debs_uncompressed/libzstd1_1.5.2.0.1_iphoneos-arm.deb'
+removed directory '/var/mobile/procursus_debs_uncompressed'

@@ -1,6 +1,6 @@
-sh install_wget.sh
-sh update_dpkg.sh
-sh update_shells.sh
-sh update_apt.sh
-#sh update_utils.sh
-#sh update_openssh.sh
+sh install_wget.sh		# working,	no errors,	not implicitly removing anything,	finalized
+sh update_dpkg.sh		# working,	no errors,	not implicitly removing anything,	finalized
+sh update_shells.sh		# working,	errors!,	implicitly removing shit!,			NOT finalized
+sh update_apt.sh		# working,	
+#sh update_utils.sh		# working,	
+#sh update_openssh.sh	# working,	
