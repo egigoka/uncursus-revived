@@ -24,8 +24,8 @@ mkdir $DEBS
 LIBS=/var/mobile/elucubratus_libs_temp
 mkdir $LIBS
 
-wget https://github.com/egigoka/uncursus-revived/blob/master/debs/ncurses-term_6.3-2_all.deb?raw=true -O $DEBS/ncurses-term_6.3-2_all.deb
-wget https://github.com/egigoka/uncursus-revived/blob/master/debs/libncursesw6_6.3-2_iphoneos-arm.deb?raw=true -O $DEBS/libncursesw6_6.3-2_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/ncurses-term_6.3+20220423-2_all.deb?raw=true -O $DEBS/ncurses-term_6.3+20220423-2_all.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/libncursesw6_6.3+20220423-2_iphoneos-arm.deb?raw=true -O $DEBS/libncursesw6_6.3+20220423-2_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/libedit0_3.1-20210910_iphoneos-arm.deb?raw=true -O $DEBS/libedit0_3.1-20210910_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/debianutils_5.5-1_iphoneos-arm.deb?raw=true -O $DEBS/debianutils_5.5-1_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/dash_0.5.11.4_iphoneos-arm.deb?raw=true -O $DEBS/dash_0.5.11.4_iphoneos-arm.deb
@@ -48,7 +48,7 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakediskdev-cm
 # updating bash
 i $DEBS/debianutils_5.5-1_iphoneos-arm.deb
 ddrm /bin/sh
-fin $DEBS/ncurses-term_6.3-2_all.deb
+fin $DEBS/libncursesw6_6.3+20220423-2_iphoneos-arm.deb
 i $DEBS/libncursesw6_6.3-2_iphoneos-arm.deb
 cfg ncurses-term
 i $DEBS/libedit0_3.1-20210910_iphoneos-arm.deb
