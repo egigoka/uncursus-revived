@@ -9,7 +9,7 @@
 - [x] Not implemented at all
 - [x] after update_apt.sh sh is broken
 - [ ] bash didnt't survive (/usr/lib/libreadline.8.dylib image not found)
-- [ ] ERROR: libncursesw6_6.3-2_iphoneos-arm.deb': No such file or directory
+- [x] ERROR: libncursesw6_6.3-2_iphoneos-arm.deb': No such file or directory
 **update_apt.sh**
  - [x] Not rejailbreaking - maybe dummy packages can help?
  - [x] REJAILBREAKING NOW!
