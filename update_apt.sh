@@ -56,10 +56,13 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibapt_1_0
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibapt-pkg5.0_1_0_iphoneos-arm.deb?raw=true -O $DEBS/fakelibapt-pkg5.0_1_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibgpg-error_1_0_iphoneos-arm.deb?raw=true -O $DEBS/fakelibgpg-error_1_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibassuan_2_0_iphoneos-arm.deb?raw=true -O $DEBS/fakelibassuan_2_0_iphoneos-arm.deb
-wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakep11-kit_0_0_iphoneos-arm.deb?raw=true -O $DEBS/fakep11-kit_0_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakegnutls_3_0_iphoneos-arm.deb?raw=true -O $DEBS/fakegnutls_3_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakegcrypt_1_0_iphoneos-arm.deb?raw=true -O $DEBS/fakegcrypt_1_0_iphoneos-arm.deb
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakegnupg_2_0_iphoneos-arm.deb?raw=true -O $DEBS/fakegnupg_2_0_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/fakelibunistring_0_0_iphoneos-arm.deb?raw=true -O $DEBS/fakelibunistring_0_0_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/p11-kit_0.24.0_iphoneos-arm.deb?raw=true -O $DEBS/p11-kit_0.24.0_iphoneos-arm.deb
+wget https://github.com/egigoka/uncursus-revived/blob/master/debs/p11-kit-modules_0.24.0_iphoneos-arm.deb?raw=true -O $DEBS/p11-kit-modules_0.24.0_iphoneos-arm.deb
+
 
 # updating apt
 frm apt
@@ -92,8 +95,11 @@ frm libtasn1
 i $DEBS/libtasn1-6_4.18.0_iphoneos-arm.deb
 i $DEBS/libffi8_3.4.2_iphoneos-arm.deb
 frm p11-kit
-i $DEBS/fakep11-kit_0_0_iphoneos-arm.deb
+# replaced with newer
+i $DEBS/p11-kit-modules_0.24.0_iphoneos-arm.deb
 i $DEBS/libp11-kit0_0.24.0_iphoneos-arm.deb
+cfg p11-kit-modules
+i $DEBS/p11-kit_0.24.0_iphoneos-arm.deb
 i $DEBS/libnettle8_3.7.3_iphoneos-arm.deb
 i $DEBS/libhogweed6_3.7.3_iphoneos-arm.deb
 frm libunistring
