@@ -26,8 +26,10 @@ wget https://github.com/egigoka/uncursus-revived/blob/master/debs/openssh-server
 wget https://github.com/egigoka/uncursus-revived/blob/master/debs/openssh-sftp-server_8.8p1_iphoneos-arm.deb?raw=true -O $DEBS/openssh-sftp-server_8.8p1_iphoneos-arm.deb
 
 # updating openssh
-i $DEBS/openssh-client_8.8p1_iphoneos-arm.deb
-i $DEBS/openssh-sftp-server_8.8p1_iphoneos-arm.deb
+i $DEBS/openssh-client_8.8p1_iphoneos-arm.deb # ok
+frm openssh-server
+i $DEBS/openssh-sftp-server_8.8p1_iphoneos-arm.deb # ok
+frm openssh-global-listener
 i $DEBS/openssh-server_8.8p1_iphoneos-arm.deb
 i $DEBS/openssh_8.8p1_iphoneos-arm.deb
 
