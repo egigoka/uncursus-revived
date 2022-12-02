@@ -2,19 +2,20 @@
  - [ ] Add Shadow
  - [ ] Add Five Icon Dock (iOS 11 - 14)
 **DUMMY PACKAGES**
- - [ ] Get list
- - [ ] Create debs
- - [ ] Update scripts
- - [ ] liblzma5 conflicts with xz, well, fuck, do I really need to change packets from Procursus?
+ - [x] Get list
+ - [x] Create debs
+ - [x] Update scripts
+ - [x] liblzma5 conflicts with xz, well, fuck, do I really need to change packets from Procursus? nah, just right version for dummy package fixed that
 **update_apt.sh**
  - [ ] Not rejailbreaking - maybe dummy packages can help?
 **update_openssh.sh**
 - [ ] Not implemented fully
-- [ ] after update_apt.sh ssh is broken (maybe because of sh?)
-**update_bash.sh**
-- [ ] Not implemented at all
-- [ ] after update_apt.sh sh is broken
+- [x] after update_apt.sh ssh is broken (maybe because of sh?)
+**update_shell.sh**
+- [x] Not implemented at all
+- [x] after update_apt.sh sh is broken
 
 **current plans**
-- [ ] Install update_dpkg.sh
-- [ ] Try to uninstall bash and install dash
+- [x] Install update_dpkg.sh
+- [x] Try to uninstall bash and install dash
+
