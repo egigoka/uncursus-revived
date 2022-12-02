@@ -1,7 +1,7 @@
 from commands import *
 
-pkgs = ['gnupg']
-version = "2:0"
+pkgs = ['coreutils-bin']
+version = "8:0"
 
 control_text = """Package: {package_name}
 Essental: yes
