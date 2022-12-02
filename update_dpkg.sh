@@ -6,9 +6,9 @@ alias frm="dpkg --force-all --remove"
 cp /usr/bin/dpkg /usr/bin/dpkg_bak
 cp /bin/rm /bin/rm_bak
 
-path_wget = type wget | cut -c 9-100
+path_wget=$(type wget | cut -c 9-100)
 
-if [ ! -f $FILE ] 
+if [ ! -f $path_wget ] 
 then
     echo "wget could not be found"
     exit
