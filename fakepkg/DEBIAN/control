@@ -1,6 +1,6 @@
-Package: libunistring
+Package: ncurses
 Essental: yes
-Version: 1:0
+Version: 7:0
 Architecture: iphoneos-arm
 Maintainer: Fake pkg <none@example.com>
 Section: System
