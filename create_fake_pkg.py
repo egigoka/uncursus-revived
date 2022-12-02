@@ -1,7 +1,7 @@
 from commands import *
 
-pkgs = ['ncurses']
-version = "7:0"
+pkgs = ['readline']
+version = "9:0"
 
 control_text = """Package: {package_name}
 Essental: yes

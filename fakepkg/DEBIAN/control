@@ -1,6 +1,6 @@
-Package: ncurses
+Package: readline
 Essental: yes
-Version: 7:0
+Version: 9:0
 Architecture: iphoneos-arm
 Maintainer: Fake pkg <none@example.com>
 Section: System
